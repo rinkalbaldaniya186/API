@@ -10,10 +10,12 @@ class SettingsPage extends StatefulWidget {
   State<SettingsPage> createState() => _SettingsPageState();
 }
 
-
 class _SettingsPageState extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
+    // Listen to ThemeProvider changes so that UI rebuilds when theme changes
+    bool isDarkMode = Provider.of<ThemeProvider>(context).isDarkMode;
+
     return Scaffold(
       appBar: AppBar(
         title: Text("S E T T I N G S"),
@@ -32,16 +34,17 @@ class _SettingsPageState extends State<SettingsPage> {
             Text(
               "Dark Mode",
               style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
               ),
             ),
             // switch
             CupertinoSwitch(
-                value:
-                  Provider.of<ThemeProvider>(context, listen: false).isDarkMode,
-                onChanged: (value) =>
-                    Provider.of<ThemeProvider>(context, listen: false).toggleTheme(),
+              value: isDarkMode,  // directly use isDarkMode from the provider
+              onChanged: (value) {
+                // Toggle theme using ThemeProvider
+                Provider.of<ThemeProvider>(context, listen: false).toggleTheme();
+              },
             ),
           ],
         ),
