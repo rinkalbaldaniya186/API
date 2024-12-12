@@ -133,7 +133,6 @@ class PlayListProvider extends ChangeNotifier {
       }
     }
   }
-
   // play previous song
   void PlayPreviousSong() async{
     // if more than 2 seconds have passed, restart the current song
