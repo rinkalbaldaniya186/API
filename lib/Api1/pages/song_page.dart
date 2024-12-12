@@ -7,7 +7,14 @@ import 'package:provider/provider.dart';
 
 class SongPage extends StatefulWidget {
   const SongPage({super.key});
-  // convert duration into min:seconds
+
+  @override
+  State<SongPage> createState() => _SongPageState();
+}
+
+class _SongPageState extends State<SongPage> {
+
+    // convert duration into min:seconds
 
   String FormateTime(Duration duration){
     String twoDigitSeconds = duration.inSeconds.remainder(60).toString().padLeft(2, '0');
@@ -15,12 +22,7 @@ class SongPage extends StatefulWidget {
 
     return formattedTime;
   }
-
-  @override
-  State<SongPage> createState() => _SongPageState();
-}
-
-class _SongPageState extends State<SongPage> {
+  
   @override
   Widget build(BuildContext context) {
     return Consumer<PlayListProvider>(
