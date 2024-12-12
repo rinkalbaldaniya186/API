@@ -118,7 +118,7 @@ class _SongPageState extends State<SongPage> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               // Start Time
-                              Text(formateTime(value.currentDuration)),
+                              Text(FormateTime(value.currentDuration)),
                               // Shuffle Icon
                               Icon(Icons.shuffle),
                               // Repeat Icon
