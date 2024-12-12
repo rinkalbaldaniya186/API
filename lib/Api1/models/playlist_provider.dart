@@ -16,7 +16,7 @@ class PlayListProvider extends ChangeNotifier {
     Song(
         songName: "Halki si Barsaat",
         artistName: "Manawar_Faruqui,Nazila_Saaj_Bhatt",
-        albumArtImagePath: "https://www.wapking.cool/thumb/Aaja+Mere+Mahi+Teri+Yaad+Aa+Gayi+-+Saaj+Bhatt/200x200",
+        albumArtImagePath: "https://www.wapking.cool/thumb/Aaja+Mere+Mahi+Teri+Yaad+Aa+Gayi+-+Saaj+Bhatt/600x600",
         audioPath: "audio/Aaja_Mere_Mahi_Teri_Yaad_Aa_Gayi.mp3"
     ),
 
