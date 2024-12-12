@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:api/Api1/componets/neu_box.dart';
 import 'package:api/Api1/models/playlist_provider.dart';
 import 'package:flutter/material.dart';
@@ -15,11 +17,12 @@ class _SongPageState extends State<SongPage> {
   // convert duration into min:seconds
 
   String FormateTime(Duration duration){
-    String twoDigitSeconds = duration.inSeconds.remainder(60).toString().padLeft(2,'0');
+    String twoDigitSeconds = duration.inSeconds.remainder(60).toString().padLeft(2, '0');
     String formattedTime = "${duration.inMinutes} : $twoDigitSeconds";
 
     return formattedTime;
   }
+
 
   @override
   Widget build(BuildContext context) {

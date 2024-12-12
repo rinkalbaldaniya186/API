@@ -1,6 +1,7 @@
-import 'package:api/Api1/themes/theme_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../themes/theme_provider.dart';
 
 class NeuBox extends StatelessWidget {
   final Widget? child;
@@ -18,7 +19,7 @@ class NeuBox extends StatelessWidget {
           boxShadow: [
             // darker shadow on bottom right
            BoxShadow(
-             color: isDarkMode ? Colors.black : Colors.grey.shade500,
+             color:  isDarkMode ? Colors.black : Colors.grey.shade500,
              blurRadius: 15,
              offset: Offset(4, 4),
            ),
