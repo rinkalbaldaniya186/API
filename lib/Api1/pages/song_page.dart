@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:api/Api1/componets/neu_box.dart';
 import 'package:api/Api1/models/playlist_provider.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +20,6 @@ class _SongPageState extends State<SongPage> {
 
     return formattedTime;
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -152,7 +149,7 @@ class _SongPageState extends State<SongPage> {
                               value.Seek(Duration(seconds: double.toInt()));
                             },
                           ),
-                        )
+                        ),
                       ],
                     ),
                     SizedBox(

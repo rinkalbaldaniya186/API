@@ -31,42 +31,42 @@ class PlayListProvider extends ChangeNotifier {
         songName: "Kaho na pyar hai",
         artistName: "Shahrukh Khan,Kajol,Rani Udit Narayan",
         albumArtImagePath: "https://s.saregama.tech/image/c/fw_500/1/fa/ae/kaho-naa-pyar-hai_1440x1440_1632901612.jpg",
-        audioPath: "Kaho_Na_Pyar_Hai.mp3"
+        audioPath: "audio/Kaho_Na_Pyar_Hai.mp3"
     ),
 
     Song(
         songName: "Kamariya",
         artistName: "Mitron Jackky Bhagnani, Kritika Kamra, Darshan Raval",
         albumArtImagePath: "https://cdn-images.dzcdn.net/images/cover/e377125b96e6ff6a5f69dc730f38ff3f/0x1900-000000-80-0-0.jpg",
-        audioPath: "Kamariya.mp3",
+        audioPath: "audio/Kamariya.mp3",
     ),
 
     Song(
         songName: "Chale Aana",
         artistName: "AjayDevgn,Tabu, Rakul Preet, Amaal Mallik, Kunaal",
         albumArtImagePath: "https://m.media-amazon.com/images/M/MV5BNGNjZmI5ZjAtMTZmOS00MGYyLTg1OGMtNTk0NDAwNjU1ZjhiXkEyXkFqcGc@._V1_UY500_UX500_.jpg",
-        audioPath: "CHALE_AANA.wav"
+        audioPath: "audio/CHALE_AANA.mp3"
     ),
 
-    // Song(
-    //     songName: "Akhiyaan Gulaab",
-    //     artistName: "Shahid Kapoor,Kriti Sanon, Mitraz",
-    //     albumArtImagePath: "https://i.scdn.co/image/ab67616d0000b273dfa8e0dab093f6a7c638c7fc",
-    //     audioPath: "Akhiyaan_Gulaab.mp3"
-    // ),
-
-    // Song(
-    //     songName: "Udja Kale Kavva(Gadar 2)",
-    //     artistName: "Sunny Deol & Ameesha Patel, Udit Narayan",
-    //     albumArtImagePath: "https://c.saavncdn.com/159/Gadar-2-Hindi-2023-20230629113440-500x500.jpg",
-    //     audioPath: "Gadar_Udja_Kale_Kawa.m4a"
-    // ),
+    Song(
+        songName: "Akhiyaan Gulaab",
+        artistName: "Shahid Kapoor,Kriti Sanon, Mitraz",
+        albumArtImagePath: "https://i.scdn.co/image/ab67616d0000b273dfa8e0dab093f6a7c638c7fc",
+        audioPath: "audio/Akhiyaan_Gulaab.mp3"
+    ),
 
     Song(
-        songName: "Kaho Na Pyar Hai",
-        artistName: "Hrithik Roshan, Ameesha Patel",
-        albumArtImagePath: "https://c.saavncdn.com/446/Kaho-Naa-Pyar-Hai-Hindi-2000-20200901153916-500x500.jpg",
-        audioPath: "Kaho_Na_Pyar_Hai.mp3"
+        songName: "Barbaadiyan(Shiddat)",
+        artistName: "Sunny K,Radhika M Sachet T,Nikhita G, Madhubanti B Sachin- Jigar",
+        albumArtImagePath: "https://i1.sndcdn.com/artworks-nUJumEgxA52TdRBM-8G0zBA-t500x500.jpg",
+        audioPath: "audio/Barbaadiyan.mp3"
+    ),
+
+    Song(
+        songName: "Kabhi Shaam Dhale",
+        artistName: "Mohammad Faiz, Jaani, Kedrock,",
+        albumArtImagePath: "https://static.qobuz.com/images/covers/bb/u6/xsgqoknegu6bb_600.jpg",
+        audioPath: "audio/Kabhi_Shaam_Dhale.mp3"
     ),
 
   ];
