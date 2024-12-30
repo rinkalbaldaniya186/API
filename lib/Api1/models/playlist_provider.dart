@@ -69,6 +69,27 @@ class PlayListProvider extends ChangeNotifier {
         audioPath: "audio/Kabhi_Shaam_Dhale.mp3"
     ),
 
+    Song(
+        songName: "Main nikla gaddi leke",
+        artistName: "Udit narayan, Aditya narayan, Mithoon, Uttam singh",
+        albumArtImagePath: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ce/b6/8a/ceb68a85-86d6-10e7-a65f-1aae1a26402e/840214495854.png/1200x1200bf-60.jpg",
+        audioPath: "audio/Bas_Ek_Nazar_Usko_Dekha.mp3"
+    ),
+
+    Song(
+        songName: "Jab Tum Aa Jaate Ho Samne",
+        artistName: " Kavita Krishnamurthy and Sonu Nigam",
+        albumArtImagePath: "https://c.saavncdn.com/336/Maharaja-Hindi-2021-20241007202112-500x500.jpg",
+        audioPath: "audio/Jab Tum Aa Jaate Hoe.mp3"
+    ),
+
+    Song(
+        songName: "Koi Mil Gaya",
+        artistName: "Shah Rukh Khan,Kajol, Rani Udit Narayan",
+        albumArtImagePath: "https://m.media-amazon.com/images/I/516H3SI5htL._UXNaN_FMjpg_QL85_.jpg",
+        audioPath: "audio/Koi_Mil_Gaya.mp3"
+    ),
+
   ];
 
   int? _currentSongIndex;
