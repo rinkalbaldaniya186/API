@@ -90,6 +90,13 @@ class PlayListProvider extends ChangeNotifier {
         audioPath: "audio/Koi_Mil_Gaya.mp3"
     ),
 
+    // Song(
+    //     songName: "Sanam Teri Kasam",
+    //     artistName: "Ankit Tiwari, Palak Muchhal",
+    //     albumArtImagePath: "https://c.saavncdn.com/820/Sanam-Teri-Kasam-Hindi-2016-20230430081750-500x500.jpg",
+    //     audioPath: "audio/Sanam_Teri_Kasam_Jukebox_All_Songs.m4a"
+    // ),
+
   ];
 
   int? _currentSongIndex;
